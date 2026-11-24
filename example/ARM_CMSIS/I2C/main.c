@@ -9,11 +9,11 @@
 
 // Generic LCD driver implementation
 #define LCD_DRIVER_IMPLEMENTATION
-#include "Components/LCD_Driver.h"
+#include "LCD_Driver.h"
 
 // I2C LCD driver implementation
 #define LCD_I2C_DRIVER_IMPLEMENTATION
-#include "Components/LCD_I2C_Driver.h"
+#include "LCD_I2C_Driver.h"
 
 extern I2C_HandleTypeDef hi2c3;
 extern ARM_DRIVER_I2C  Driver_I2C3;
